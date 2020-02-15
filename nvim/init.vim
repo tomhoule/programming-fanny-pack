@@ -11,12 +11,13 @@ Plug 'tpope/vim-commentary'
 Plug 'tpope/vim-surround'
 call plug#end()
 
+set termguicolors
 colorscheme jellybeans
 
 let mapleader = "»"
 
 nmap <silent> <leader>w :write<ENTER>
-nmap <silent> <leader>h :nohlsearch<ENTER>
+nmap <leader>h :nohlsearch<ENTER>
 nmap <silent> <leader>f :Files<ENTER>
 nmap <silent> <leader>rg :Rg<ENTER>
 nmap <silent> <leader>gr :Rg<ENTER>
