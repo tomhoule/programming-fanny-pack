@@ -22,7 +22,10 @@ nmap <silent> <leader>f :Files<ENTER>
 nmap <silent> <leader>rg :Rg<ENTER>
 nmap <silent> <leader>gr :Rg<ENTER>
 nmap é :
-nmap <silent> <leader>d :Dirvish<ENTER>
+nmap <silent> <leader>d :Dirvish %<ENTER>
+imap <C-l> <Esc>
+nmap <C-l> <Esc>
+vmap <C-l> <Esc>
 
 " Replace netrw with dirvish
 let g:loaded_netrwPlugin = 1
